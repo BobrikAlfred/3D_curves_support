@@ -111,7 +111,5 @@ int main()
         count += static_cast<int>(c.rX);
         std::cout << c.name << " Radius: " << static_cast<int>(c.rX) << std::endl;
     }
-    std::cout << std::endl;
-    std::cout << "Sum of radius: " << static_cast<int>(count);
-    std::cout << std::endl;
+    std::cout << "\nSum of radius: " << static_cast<int>(count) << "\n";
 }
